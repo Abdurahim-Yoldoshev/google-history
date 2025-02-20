@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download history</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="menu-border">
+            <div class="menu">
+                <div class="logo">
+                    <label id="logo">Download history</label>
+                </div>
+                <div class="search"><img src="img/search.png" alt=""><input type="text" class="input"></div>
+                <div class="btn">Clear all</div>
+            </div>
+        </div>
+        <div id="container"></div>
+        <div class="container">
+            <div class="new-box" onclick="newBox()">
+                &plus;
+            </div>
+        </div>
+        <div id="madal-screen">
+            <div class="madal">
+                <label>Text...</label>
+                <textarea name="text" id="textarea"></textarea>
+                <div class="madal-btn">
+                    <button class="btn1" onclick="otmena()">
+                        OTMENA
+                    </button>
+                    <button class="btn2" onclick="ok()">
+                        OK
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="js/script.js"></script>
+</body>
+</html>
